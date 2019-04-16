@@ -9,3 +9,5 @@
 
     Sparrows, though small, have all five internal organs.
 
+JVM Options: ${JAVA_OPTS}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
