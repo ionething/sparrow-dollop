@@ -1,4 +1,4 @@
-package com.github.ionething.sparrow.common.util;
+package com.github.ionething.sparrow.dollop.common.util;
 
 import lombok.Getter;
 import org.springframework.beans.BeansException;
@@ -10,7 +10,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 
 /**
- * @author wangxin
+ * @author Vincent
  */
 @Component
 public class SpringContextUtils implements ApplicationContextAware {

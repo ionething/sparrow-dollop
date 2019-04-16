@@ -4,5 +4,7 @@ services:
     image: sparrow/dollop-app
     environment:
       - JAVA_OPTS=-Xmx512m -Xms256m
+#      - SPRING_PROFILES_ACTIVE=deploy
+      - SPRING_DATASOURCE_URL=jdbc:mysql://127.0.0.1/test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
     ports:
       - 8080:8080
